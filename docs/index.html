@@ -1,1 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine Learning Based Content Opportunity Scoring</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            max-width:900px;
+            margin:auto;
+            padding:40px;
+            line-height:1.7;
+        }
+        h1,h2{
+            color:#1f4e79;
+        }
+        table{
+            border-collapse:collapse;
+            width:100%;
+        }
+        th,td{
+            border:1px solid #ccc;
+            padding:8px;
+            text-align:left;
+        }
+        th{
+            background:#f2f2f2;
+        }
+    </style>
+</head>
+<body>
 
+<h1>Machine Learning Based Content Opportunity Scoring for Organic Growth Support</h1>
+
+<p><strong>Author:</strong> Thendral L</p>
+<p><strong>Lane:</strong> Refresh / Content Opportunity Scoring</p>
+
+<h2>Abstract</h2>
+<p>
+Write the same abstract from your capstone report here.
+</p>
+
+<h2>Introduction</h2>
+<p>
+Explain the FlyRank content problem and why you built this model.
+</p>
+
+<h2>Data</h2>
+<ul>
+<li>Dataset: FlyRank ML Internship dataset</li>
+<li>Records: 30,000</li>
+<li>Features: search_volume, ctr, avg_position, content_age_days, engagement_rate, scroll_rate...</li>
+<li>Excluded: content_id, client_id, trend_direction, trend_pct</li>
+</ul>
+
+<h2>Methodology</h2>
+<p>
+Describe your Random Forest model, target definition, train-test split, and leakage checks.
+</p>
+
+<h2>Results</h2>
+
+<table>
+<tr>
+<th>Metric</th>
+<th>Value</th>
+</tr>
+
+<tr>
+<td>Accuracy</td>
+<td>65.85%</td>
+</tr>
+
+<tr>
+<td>Precision</td>
+<td>67.23%</td>
+</tr>
+
+<tr>
+<td>Recall</td>
+<td>72.77%</td>
+</tr>
+
+</table>
+
+<h2>Feature Importance</h2>
+
+<ol>
+<li>Average Position</li>
+<li>Content Age</li>
+<li>CTR</li>
+<li>Scroll Rate</li>
+<li>Search Volume</li>
+</ol>
+
+<!-- Optional: Add screenshots of your charts -->
+<!-- Save chart images in docs/images/ and reference them -->
+<!--
+<img src="images/feature_importance.png" width="700">
+<img src="images/confusion_matrix.png" width="500">
+-->
+
+<h2>Limitations</h2>
+
+<ul>
+<li>Model identifies patterns, not causes.</li>
+<li>Historical data only.</li>
+<li>Decision-support only.</li>
+</ul>
+
+<h2>Recommendations</h2>
+
+<ol>
+<li>Review pages with declining average position.</li>
+<li>Refresh older content.</li>
+<li>Improve CTR.</li>
+<li>Monitor engagement.</li>
+</ol>
+
+<h2>Reproducibility</h2>
+
+<p>
+GitHub Repository:
+<a href="https://github.com/lthendral10/flyrank-ml-internship">
+https://github.com/lthendral10/flyrank-ml-internship
+</a>
+</p>
+
+<h2>Acknowledgments & Data Credit</h2>
+
+<p>
+Built on the FlyRank ML Internship dataset.
+</p>
+
+<p>
+Data source:
+<a href="https://flyrank.ai">https://flyrank.ai</a>
+</p>
+
+</body>
+</html>
